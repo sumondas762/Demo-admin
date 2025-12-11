@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="add-section">
+        <div class="name-section">
+            <input type="text"
+            class="name"
+            id="nameInput"
+            placeholder="Enter your participent name">
+            <button class="add-btn" onclick="showName()">add</button>
+        </div>
+    </div>
+    <div>
+        <div class="up-arrow"></div>
+        <div class="main-wheel" id="main-wheel">
+            <div class="sub-wheel" id="sub-wheel">
+                <div class="nameContainer" id="nameContainer">qwerty</div>  
+            </div>
+        </div>
+        <div class="fixed-wheel" id="fixed-wheel">
+            <div class="down-arrow"></div>
+            <button class="spin-btn" onclick="spin()">>SPIN<</button>
+        </div>
+        <!-- <button onclick="spin()">Spin</button> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
